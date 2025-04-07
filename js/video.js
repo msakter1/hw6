@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
 	video.setAttribute("autoplay", "false");
 	video.setAttribute("loop", "false");
 	
-	if (video.getAttribute('autoplay') == 'false' && video.getAttribute('loop')) {
+	if (video.getAttribute('autoplay') == 'false' && video.getAttribute('loop') == 'false') {
 		console.log("Auto play is set to false");
 		console.log("Loop is set to false");
 	}
